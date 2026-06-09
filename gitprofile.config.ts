@@ -91,6 +91,7 @@ const config = {
     fileUrl: '', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
+    'openclaw',
     'n8n Workflow Automation (json, javascript)',
     'Playwright',
     'Webdriver.io',
