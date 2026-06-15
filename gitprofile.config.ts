@@ -13,11 +13,11 @@ const config = {
   projects: {
     github: {
       display: true,
-      header: 'My GitHub Projects',
+      header: 'My personal GitHub Projects',
       mode: 'automatic',
     },
     external: {
-      header: 'Other Projects',
+      header: 'Past permanent positions',
       projects: [
         {
           title: 'Bike24',
