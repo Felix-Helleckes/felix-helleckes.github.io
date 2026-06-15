@@ -13,7 +13,7 @@ const config = {
   projects: {
     github: {
       display: true,
-      header: 'My personal GitHub Projects',
+      header: 'My personal Projects',
       mode: 'automatic',
     },
     external: {
