@@ -24,21 +24,21 @@ const config = {
         {
           title: 'Bike24',
           description:
-            'Automated an Supply Chain Management Solution for Bike24 based on SAP 4S/Hana. Also got in touch with their E Commerce Platform and automated various user flows with Playwirght and locust.io for performance testing.',
+            'Automated a Supply Chain Management solution for Bike24 based on SAP S/4HANA. Also worked with their e-commerce platform and automated various user flows with Playwright and Locust for performance testing.',
           imageUrl: 'https://s3-eu-west-1.amazonaws.com/tpd/logos/5f7727eeff11cd000138c964/0x0.png',
           link: 'https://www.bike24.de/',
         },
         {
           title: 'Peek & Cloppenburg Web Apps',
           description:
-            'Peek & Cloppenburg is a German fashion retailer founded in 1869. With a bunch of employees there was a lot of internal projects which we developed and I also got in touch with E Commerce Development and automated a lot of stuff with webdriver and locust.io',
+            'Peek & Cloppenburg is a German fashion retailer founded in 1869. With a large workforce there were many internal projects which we developed. I also worked in e-commerce development and automated many user flows with WebdriverIO and Locust.',
           imageUrl: 'https://play-lh.googleusercontent.com/yycoMy1dTRJMFbwyvIpctd44_T7MSvZF-oQ9jnrPDdzqJad2Lirrvjep3aLpx4D8_pQ',
           link: 'https://www.peek-cloppenburg.de/',
         },
         {
           title: 'KFW',
           description:
-            'KfW, or Kreditanstalt für Wiederaufbau, is a German development bank. It is owned by the German government and provides loans and other financial services to businesses, governments, and individuals. KfW`s main focus is on promoting economic development and social welfare in Germany',
+            'KfW, or Kreditanstalt für Wiederaufbau, is a German development bank. It is owned by the German government and provides loans and other financial services to businesses, governments, and individuals. KfW\'s main focus is on promoting economic development and social welfare in Germany',
           imageUrl: 'https://www.kfw-ipex-bank.de/Techn-Medien/Logos/Social-Media/KfW_IPEX_Logo_180x180px.png',
           link: 'https://www.kfw.de/kfw.de.html',
         },
@@ -67,9 +67,9 @@ const config = {
     },
   },
   seo: {
-    title: 'Felix Helleckes - QA Engineer & Portfolio',
-    description: 'Portfolio von Felix Helleckes, QA-Engineer mit Expertise in Test Automation, Playwright, Webdriver.io und CI/CD',
-    imageURL: 'https://avatars.githubusercontent.com/u/Felix-Helleckes',
+    title: 'Felix Helleckes – QA & Test Automation Engineer (Germany)',
+    description: 'Felix Helleckes — QA & Test Automation Engineer based in Germany, covering the DACH region and remote work. Playwright, WebdriverIO, Selenium, Locust, CI/CD.',
+    imageURL: 'https://github.com/Felix-Helleckes.png',
   },
   social: {
     linkedin: 'felix-helleckes-758529202/',
@@ -100,12 +100,12 @@ const config = {
     'Webdriver.io',
     'Selenium/Appium',
     'locust.io',
-    'SAP 4S/Hana TestautomatisierungsTool',
+    'SAP S/4HANA Test Automation Tool',
     'Postman',
     'Jenkins CI/CD',
     'Docker',
     'Testrail',
-    'Test-Management im Scrum Workflow',
+    'Test Management in Scrum Workflow',
     'Testmo'
   ],
   experiences: [
@@ -113,13 +113,13 @@ const config = {
       company: 'Bike24',
       position: 'QA-Engineer',
       from: 'Nov 2023',
-      to: 'Okt 2025',
+      to: 'Oct 2025',
       companyLink: 'https://www.bike24.de/',
     },
     {
       company: 'Peek & Cloppenburg (Fashion Digital)',
       position: 'Associate-Manager:Quality Assurance',
-      from: 'Dez 2021',
+      from: 'Dec 2021',
       to: 'Oct 2023',
       companyLink: 'https://www.peek-cloppenburg.de/',
     },
@@ -149,7 +149,7 @@ const config = {
   education: [
     {
       institution: 'Hönne Berufskolleg Menden',
-      degree: 'Fachabitur & Schulische Ausbildung',
+      degree: 'Fachabitur & Vocational Training',
       from: '2009',
       to: '2014',
     },
