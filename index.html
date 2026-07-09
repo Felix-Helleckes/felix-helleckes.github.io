@@ -69,7 +69,30 @@
     <%- googleAnalyticsScript %>
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root">
+      <!-- Static fallback for crawlers / no-JS. React replaces this on mount. -->
+      <div style="min-height:100vh;display:flex;align-items:center;justify-content:center;background:#0a0a0a;color:#e5e7eb;font-family:system-ui,-apple-system,sans-serif;padding:2rem;box-sizing:border-box;">
+        <main style="max-width:680px;text-align:center;">
+          <h1 style="font-size:1.8rem;margin:0 0 .4rem;">Felix Helleckes</h1>
+          <p style="font-size:1.1rem;color:#fc055b;margin:0 0 1.2rem;">QA &amp; Test Automation Engineer · Cologne, Germany</p>
+          <p style="line-height:1.6;margin:0 0 1.2rem;">
+            QA Manager &amp; Automation Engineer with 8+ years of experience across App, Web and IoT.
+            I build reliable end-to-end and performance test suites with Playwright, WebdriverIO,
+            Selenium, Appium and Locust, integrated into CI/CD pipelines (Jenkins, Docker).
+            Available across the DACH region and remote.
+          </p>
+          <p style="font-size:.95rem;color:#9ca3af;margin:0 0 1.5rem;">
+            Playwright · WebdriverIO · Selenium · Appium · Locust · Postman · Jenkins · Docker · TestRail · Testmo · Scrum test management
+          </p>
+          <p style="font-size:.95rem;margin:0 0 2rem;">
+            <a href="https://github.com/Felix-Helleckes" style="color:#219aaf;">GitHub</a> ·
+            <a href="https://www.linkedin.com/in/felix-helleckes-758529202/" style="color:#219aaf;">LinkedIn</a> ·
+            <a href="https://stackoverflow.com/users/15774380/felix-helleckes" style="color:#219aaf;">Stack Overflow</a>
+          </p>
+          <p style="font-size:.85rem;color:#6b7280;margin:0;">Loading portfolio…</p>
+        </main>
+      </div>
+    </div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
