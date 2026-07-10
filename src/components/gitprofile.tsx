@@ -179,7 +179,7 @@ const GitProfile = ({ config }: { config: Config }) => {
 
   return (
     <div className="fade-in h-screen">
-      {error ? (
+      {error && error === INVALID_CONFIG_ERROR ? (
         <ErrorPage
           status={error.status}
           title={error.title}
@@ -201,37 +201,37 @@ const GitProfile = ({ config }: { config: Config }) => {
                   )}
                   <AvatarCard
                     profile={profile}
-                    loading={loading}
+                    loading={loading || !profile}
                     avatarRing={sanitizedConfig.themeConfig.displayAvatarRing}
                     resumeFileUrl={sanitizedConfig.resume.fileUrl}
                   />
                   <DetailsCard
                     profile={profile}
-                    loading={loading}
+                    loading={loading || !profile}
                     github={sanitizedConfig.github}
                     social={sanitizedConfig.social}
                   />
                   {sanitizedConfig.skills.length !== 0 && (
                     <SkillCard
-                      loading={loading}
+                      loading={false}
                       skills={sanitizedConfig.skills}
                     />
                   )}
                   {sanitizedConfig.experiences.length !== 0 && (
                     <ExperienceCard
-                      loading={loading}
+                      loading={false}
                       experiences={sanitizedConfig.experiences}
                     />
                   )}
                   {sanitizedConfig.certifications.length !== 0 && (
                     <CertificationCard
-                      loading={loading}
+                      loading={false}
                       certifications={sanitizedConfig.certifications}
                     />
                   )}
                   {sanitizedConfig.educations.length !== 0 && (
                     <EducationCard
-                      loading={loading}
+                      loading={false}
                       educations={sanitizedConfig.educations}
                     />
                   )}
@@ -250,13 +250,13 @@ const GitProfile = ({ config }: { config: Config }) => {
                   )}
                   {sanitizedConfig.publications.length !== 0 && (
                     <PublicationCard
-                      loading={loading}
+                      loading={false}
                       publications={sanitizedConfig.publications}
                     />
                   )}
                   {sanitizedConfig.projects.external.projects.length !== 0 && (
                     <ExternalProjectCard
-                      loading={loading}
+                      loading={false}
                       header={sanitizedConfig.projects.external.header}
                       externalProjects={
                         sanitizedConfig.projects.external.projects
@@ -280,7 +280,7 @@ const GitProfile = ({ config }: { config: Config }) => {
               className={`p-4 footer ${BG_COLOR} text-base-content footer-center`}
             >
               <div className="card card-sm bg-base-100 shadow-sm">
-                <Footer content={sanitizedConfig.footer} loading={loading} />
+                <Footer content={sanitizedConfig.footer} loading={false} />
               </div>
             </footer>
           )}

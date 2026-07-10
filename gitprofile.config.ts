@@ -146,7 +146,7 @@ const config = {
       link: 'https://example.com'
     },
   ], */
-  education: [
+  educations: [
     {
       institution: 'Hönne Berufskolleg Menden',
       degree: 'Fachabitur & Vocational Training',
