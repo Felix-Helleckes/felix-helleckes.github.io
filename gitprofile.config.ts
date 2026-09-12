@@ -6,7 +6,7 @@ const config = {
   },
   projects: {
     github: {
-      display: true,
+      display: false,
       header: 'My personal Projects',
       mode: 'automatic',
       automatic: {
