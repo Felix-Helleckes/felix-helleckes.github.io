@@ -112,7 +112,7 @@ const config = {
     imageURL: 'https://github.com/Felix-Helleckes.png',
   },
   social: {
-    linkedin: 'felix-helleckes-758529202/',
+    linkedin: 'felix-helleckes',
     //twitter: '',
     //mastodon: 'arifszn@mastodon.social',
     //facebook: '',
