@@ -33,7 +33,7 @@ const config = {
           description:
             'Shopify app covering three EU consumer-law obligations taking effect in 2026: the online withdrawal button (Art. 11a Consumer Rights Directive), the harmonised legal-guarantee notice and the GARAN durability label (Reg. (EU) 2025/1960) — in all 24 EU languages, without any theme code. React Router 7, Prisma, Polaris, GraphQL Admin API.',
           imageUrl: '/projects/eu-compliance-suite.png',
-          link: 'https://eu-compliance-suite.netlify.app/',
+          link: 'https://eu-compliance-suite.fly.dev/',
         },
         {
           title: 'Clickwheel — Classic Music Player',
