@@ -18,6 +18,46 @@ const config = {
         },
       },
     },
+    hobby: {
+      header: 'Apps I built & shipped',
+      projects: [
+        {
+          title: 'Moto-Log — Motorcycle Logbook',
+          description:
+            'A 100% offline service logbook for motorcycles: maintenance entries, service intervals and running costs per bike. Free on iOS and Android, no account and no trackers. Built with Flutter, localised in five languages (DE/EN/NL/IT/FR).',
+          imageUrl: '/projects/motolog.png',
+          link: 'https://motologbuch.netlify.app/',
+        },
+        {
+          title: 'EU Compliance Suite — Shopify App',
+          description:
+            'Shopify app covering three EU consumer-law obligations taking effect in 2026: the online withdrawal button (Art. 11a Consumer Rights Directive), the harmonised legal-guarantee notice and the GARAN durability label (Reg. (EU) 2025/1960) — in all 24 EU languages, without any theme code. React Router 7, Prisma, Polaris, GraphQL Admin API.',
+          imageUrl: '/projects/eu-compliance-suite.png',
+          link: 'https://eu-compliance-suite.netlify.app/',
+        },
+        {
+          title: 'Clickwheel — Classic Music Player',
+          description:
+            'An offline music player with a real click wheel that rotates by angle and clicks audibly, just like a classic MP3 player. No account, no streaming, no ads, no internet connection. Flutter, for iPhone and Android.',
+          imageUrl: '/projects/clickwheel.png',
+          link: 'https://clickwheel-app.netlify.app/',
+        },
+        {
+          title: 'Mega Man: Advanced PET',
+          description:
+            'A fan-made mobile game inspired by Mega Man Battle Network: real-time 3x6 grid NetBattles, 200+ battle chips with fusion, co-op boss raids and a pedometer that charges your battle fuel while you walk. Flutter with an optional Supabase cloud layer — out on the App Store and Google Play.',
+          imageUrl: '/projects/megaman-pet.png',
+          link: 'https://mega-man-advanced-pet.vercel.app/',
+        },
+        {
+          title: 'World Clock Live',
+          description:
+            'An LED world clock that runs as a live desktop wallpaper on Windows and macOS: 24 cities on a world map, 7-segment digits, automatic daylight-saving time, dark & light mode and near-zero CPU usage. Built with Electron, free with an optional Pro tier.',
+          imageUrl: '/projects/worldclocklive.png',
+          link: 'https://worldclocklive.pages.dev/',
+        },
+      ],
+    },
     external: {
       header: 'Past permanent positions',
       projects: [

@@ -248,6 +248,14 @@ const GitProfile = ({ config }: { config: Config }) => {
                       googleAnalyticsId={sanitizedConfig.googleAnalytics.id}
                     />
                   )}
+                  {sanitizedConfig.projects.hobby.projects.length !== 0 && (
+                    <ExternalProjectCard
+                      loading={false}
+                      header={sanitizedConfig.projects.hobby.header}
+                      externalProjects={sanitizedConfig.projects.hobby.projects}
+                      googleAnalyticId={sanitizedConfig.googleAnalytics.id}
+                    />
+                  )}
                   {sanitizedConfig.publications.length !== 0 && (
                     <PublicationCard
                       loading={false}
