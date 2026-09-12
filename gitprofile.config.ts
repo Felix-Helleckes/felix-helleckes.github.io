@@ -50,6 +50,13 @@ const config = {
           link: 'https://mega-man-advanced-pet.vercel.app/',
         },
         {
+          title: 'Retrogram — ICQ-style Messenger',
+          description:
+            'A messenger that puts the 2001 ICQ interface back on top of modern chat: contact list, classic window chrome and the original sounds. Runs in the browser, nothing to install.',
+          imageUrl: '/projects/retrogram.png',
+          link: 'https://icq-remake.netlify.app/',
+        },
+        {
           title: 'World Clock Live',
           description:
             'An LED world clock that runs as a live desktop wallpaper on Windows and macOS: 24 cities on a world map, 7-segment digits, automatic daylight-saving time, dark & light mode and near-zero CPU usage. Built with Electron, free with an optional Pro tier.',
