@@ -40,7 +40,7 @@ const config = {
           description:
             'An offline music player with a real click wheel that rotates by angle and clicks audibly, just like a classic MP3 player. No account, no streaming, no ads, no internet connection. Flutter, for iPhone and Android.',
           imageUrl: '/projects/clickwheel.png',
-          link: 'https://clickwheel-app.netlify.app/',
+          link: 'https://clickwheel-app.pages.dev/',
         },
         {
           title: 'Mega Man: Advanced PET',
