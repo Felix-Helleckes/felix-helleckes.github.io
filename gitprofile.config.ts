@@ -52,9 +52,9 @@ const config = {
         {
           title: 'Retrogram — ICQ-style Messenger',
           description:
-            'A messenger that puts the 2001 ICQ interface back on top of modern chat: contact list, classic window chrome and the original sounds. Runs in the browser, nothing to install.',
+            'WhatsApp and Telegram in one desktop app wearing the 2003 ICQ 5 interface: a separate chat window per contact, the original uh-oh sound and switchable skins. Electron, free and open source for Windows, macOS and Linux.',
           imageUrl: '/projects/retrogram.png',
-          link: 'https://icq-remake.netlify.app/',
+          link: 'https://icq-retrogram.pages.dev/',
         },
         {
           title: 'World Clock Live',
