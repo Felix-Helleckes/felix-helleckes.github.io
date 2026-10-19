@@ -50,6 +50,13 @@ const config = {
           link: 'https://mega-man-advanced-pet.vercel.app/',
         },
         {
+          title: 'Dash & Slash — One-Thumb Roguelite',
+          description:
+            'A one-handed action roguelite: pull back to aim while time slows to 20%, release to catapult-dash through every enemy in your path, tap to parry. Three zones of procedurally generated rooms, three bosses with three phases each, 28 relics and 8 synergies. All graphics and sound are generated in code. Flutter and Flame, for Android and iPhone.',
+          imageUrl: '/projects/dash-and-slash.png',
+          link: 'https://dash-and-slash.pages.dev/',
+        },
+        {
           title: 'Retrogram — ICQ-style Messenger',
           description:
             'WhatsApp and Telegram in one desktop app wearing the 2003 ICQ 5 interface: a separate chat window per contact, the original uh-oh sound and switchable skins. Electron, free and open source for Windows, macOS and Linux.',
