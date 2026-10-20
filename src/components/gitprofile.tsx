@@ -28,6 +28,7 @@ import ExternalProjectCard from './external-project-card';
 import BlogCard from './blog-card';
 import Footer from './footer';
 import PublicationCard from './publication-card';
+import OpenSourceCard from './open-source-card';
 
 /**
  * Renders the GitProfile component.
@@ -256,6 +257,7 @@ const GitProfile = ({ config }: { config: Config }) => {
                       googleAnalyticId={sanitizedConfig.googleAnalytics.id}
                     />
                   )}
+                  <OpenSourceCard />
                   {sanitizedConfig.publications.length !== 0 && (
                     <PublicationCard
                       loading={false}

@@ -1,0 +1,58 @@
+{
+  "updatedAt": "2026-10-20",
+  "merged": 13,
+  "open": 49,
+  "issues": 4,
+  "repos": [
+    {
+      "name": "storytold/filmcraft",
+      "url": "https://github.com/storytold/filmcraft",
+      "merged": 13,
+      "open": 46
+    },
+    {
+      "name": "storytold/craft-launcher",
+      "url": "https://github.com/storytold/craft-launcher",
+      "merged": 0,
+      "open": 2
+    },
+    {
+      "name": "tr0tsky0/Mapzeroth",
+      "url": "https://github.com/tr0tsky0/Mapzeroth",
+      "merged": 0,
+      "open": 1
+    }
+  ],
+  "latestMerged": [
+    {
+      "title": "#1487: the Text panel's Graphics tab lists and edits the sequence's graphic text",
+      "url": "https://github.com/storytold/filmcraft/pull/2452",
+      "repo": "storytold/filmcraft",
+      "mergedAt": "2026-10-19T16:54:20Z"
+    },
+    {
+      "title": "Timeline: colour labels for tracks (#1186)",
+      "url": "https://github.com/storytold/filmcraft/pull/2451",
+      "repo": "storytold/filmcraft",
+      "mergedAt": "2026-10-19T16:54:07Z"
+    },
+    {
+      "title": "#2358: stopwatches in the Essential Graphics panel animate layer properties",
+      "url": "https://github.com/storytold/filmcraft/pull/2459",
+      "repo": "storytold/filmcraft",
+      "mergedAt": "2026-10-19T16:53:55Z"
+    },
+    {
+      "title": "#1985: a panel closed while floating opens again floating where it was",
+      "url": "https://github.com/storytold/filmcraft/pull/2482",
+      "repo": "storytold/filmcraft",
+      "mergedAt": "2026-10-19T16:52:19Z"
+    },
+    {
+      "title": "i18n: German (de) covers the whole interface",
+      "url": "https://github.com/storytold/filmcraft/pull/2462",
+      "repo": "storytold/filmcraft",
+      "mergedAt": "2026-10-19T16:52:15Z"
+    }
+  ]
+}
