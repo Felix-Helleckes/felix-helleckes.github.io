@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-10-22",
-  "merged": 16,
-  "open": 59,
+  "updatedAt": "2026-10-23",
+  "merged": 17,
+  "open": 60,
   "issues": 5,
   "repos": [
     {
       "name": "storytold/filmcraft",
       "url": "https://github.com/storytold/filmcraft",
-      "merged": 14,
-      "open": 54
+      "merged": 15,
+      "open": 55
     },
     {
       "name": "storytold/craft-launcher",
@@ -24,6 +24,12 @@
     }
   ],
   "latestMerged": [
+    {
+      "title": "#2679: effects.setParam refuses values outside the parameter's range",
+      "url": "https://github.com/storytold/filmcraft/pull/2709",
+      "repo": "storytold/filmcraft",
+      "mergedAt": "2026-10-23T04:52:46Z"
+    },
     {
       "title": "#2342: CLI file.exportMedia waits for the export before the process exits",
       "url": "https://github.com/storytold/filmcraft/pull/2388",
@@ -47,12 +53,6 @@
       "url": "https://github.com/storytold/filmcraft/pull/2452",
       "repo": "storytold/filmcraft",
       "mergedAt": "2026-10-19T16:54:20Z"
-    },
-    {
-      "title": "Timeline: colour labels for tracks (#1186)",
-      "url": "https://github.com/storytold/filmcraft/pull/2451",
-      "repo": "storytold/filmcraft",
-      "mergedAt": "2026-10-19T16:54:07Z"
     }
   ]
 }
