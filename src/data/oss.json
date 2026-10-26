@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-10-25",
-  "merged": 17,
-  "open": 60,
+  "updatedAt": "2026-10-26",
+  "merged": 19,
+  "open": 58,
   "issues": 6,
   "repos": [
     {
       "name": "storytold/filmcraft",
       "url": "https://github.com/storytold/filmcraft",
-      "merged": 15,
-      "open": 55
+      "merged": 17,
+      "open": 53
     },
     {
       "name": "storytold/craft-launcher",
@@ -24,6 +24,18 @@
     }
   ],
   "latestMerged": [
+    {
+      "title": "#2340: uncompressed QuickTime video (raw 24-bit RGB, 2vuy, v210) decodes",
+      "url": "https://github.com/storytold/filmcraft/pull/2415",
+      "repo": "storytold/filmcraft",
+      "mergedAt": "2026-10-25T16:07:09Z"
+    },
+    {
+      "title": "#2343: saving a project creates its previews folder only when there are previews",
+      "url": "https://github.com/storytold/filmcraft/pull/2387",
+      "repo": "storytold/filmcraft",
+      "mergedAt": "2026-10-25T16:07:09Z"
+    },
     {
       "title": "#2679: effects.setParam refuses values outside the parameter's range",
       "url": "https://github.com/storytold/filmcraft/pull/2709",
@@ -41,18 +53,6 @@
       "url": "https://github.com/storytold/craft-launcher/pull/663",
       "repo": "storytold/craft-launcher",
       "mergedAt": "2026-10-20T18:53:27Z"
-    },
-    {
-      "title": "fix: address issue #388",
-      "url": "https://github.com/storytold/craft-launcher/pull/677",
-      "repo": "storytold/craft-launcher",
-      "mergedAt": "2026-10-20T18:48:49Z"
-    },
-    {
-      "title": "#1487: the Text panel's Graphics tab lists and edits the sequence's graphic text",
-      "url": "https://github.com/storytold/filmcraft/pull/2452",
-      "repo": "storytold/filmcraft",
-      "mergedAt": "2026-10-19T16:54:20Z"
     }
   ]
 }
