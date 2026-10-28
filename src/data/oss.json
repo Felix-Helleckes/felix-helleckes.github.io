@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-26",
+  "updatedAt": "2026-10-28",
   "merged": 19,
-  "open": 58,
+  "open": 57,
   "issues": 6,
   "repos": [
     {
@@ -15,12 +15,6 @@
       "url": "https://github.com/storytold/craft-launcher",
       "merged": 2,
       "open": 4
-    },
-    {
-      "name": "tr0tsky0/Mapzeroth",
-      "url": "https://github.com/tr0tsky0/Mapzeroth",
-      "merged": 0,
-      "open": 1
     }
   ],
   "latestMerged": [
