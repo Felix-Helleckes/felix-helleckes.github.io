@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-10-28",
-  "merged": 19,
-  "open": 57,
+  "updatedAt": "2026-10-31",
+  "merged": 37,
+  "open": 39,
   "issues": 6,
   "repos": [
     {
       "name": "storytold/filmcraft",
       "url": "https://github.com/storytold/filmcraft",
-      "merged": 17,
-      "open": 53
+      "merged": 35,
+      "open": 35
     },
     {
       "name": "storytold/craft-launcher",
@@ -19,34 +19,34 @@
   ],
   "latestMerged": [
     {
-      "title": "#2340: uncompressed QuickTime video (raw 24-bit RGB, 2vuy, v210) decodes",
-      "url": "https://github.com/storytold/filmcraft/pull/2415",
+      "title": "#1878: list fonts activated through Adobe Fonts",
+      "url": "https://github.com/storytold/filmcraft/pull/2389",
       "repo": "storytold/filmcraft",
-      "mergedAt": "2026-10-25T16:07:09Z"
+      "mergedAt": "2026-10-31T05:56:57Z"
     },
     {
-      "title": "#2343: saving a project creates its previews folder only when there are previews",
-      "url": "https://github.com/storytold/filmcraft/pull/2387",
+      "title": "#2375: the NVENC SDR sample entry test expects the BT.709 colr since #2142",
+      "url": "https://github.com/storytold/filmcraft/pull/2386",
       "repo": "storytold/filmcraft",
-      "mergedAt": "2026-10-25T16:07:09Z"
+      "mergedAt": "2026-10-31T05:56:57Z"
     },
     {
-      "title": "#2679: effects.setParam refuses values outside the parameter's range",
-      "url": "https://github.com/storytold/filmcraft/pull/2709",
+      "title": "#2749: Export starts on Source In/Out when the sequence has In/Out marks",
+      "url": "https://github.com/storytold/filmcraft/pull/2768",
       "repo": "storytold/filmcraft",
-      "mergedAt": "2026-10-23T04:52:46Z"
+      "mergedAt": "2026-10-31T05:56:56Z"
     },
     {
-      "title": "#2342: CLI file.exportMedia waits for the export before the process exits",
-      "url": "https://github.com/storytold/filmcraft/pull/2388",
+      "title": "#2682: Lumetri curves get automation elements; regression test for curve undo/redo",
+      "url": "https://github.com/storytold/filmcraft/pull/2710",
       "repo": "storytold/filmcraft",
-      "mergedAt": "2026-10-21T23:09:11Z"
+      "mergedAt": "2026-10-31T05:56:56Z"
     },
     {
-      "title": "fix: address issue #649",
-      "url": "https://github.com/storytold/craft-launcher/pull/663",
-      "repo": "storytold/craft-launcher",
-      "mergedAt": "2026-10-20T18:53:27Z"
+      "title": "#2489: an imported shortcut set is always listed; .kys files explain why they can't be read",
+      "url": "https://github.com/storytold/filmcraft/pull/2705",
+      "repo": "storytold/filmcraft",
+      "mergedAt": "2026-10-31T05:56:56Z"
     }
   ]
 }
