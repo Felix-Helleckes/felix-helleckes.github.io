@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-10-31",
-  "merged": 37,
-  "open": 39,
+  "updatedAt": "2026-11-11",
+  "merged": 38,
+  "open": 38,
   "issues": 6,
   "repos": [
     {
       "name": "storytold/filmcraft",
       "url": "https://github.com/storytold/filmcraft",
-      "merged": 35,
-      "open": 35
+      "merged": 36,
+      "open": 34
     },
     {
       "name": "storytold/craft-launcher",
@@ -18,6 +18,12 @@
     }
   ],
   "latestMerged": [
+    {
+      "title": "#2553: fall back to the integrated GPU when the chosen one can't draw to the window",
+      "url": "https://github.com/storytold/filmcraft/pull/2558",
+      "repo": "storytold/filmcraft",
+      "mergedAt": "2026-11-10T13:21:44Z"
+    },
     {
       "title": "#1878: list fonts activated through Adobe Fonts",
       "url": "https://github.com/storytold/filmcraft/pull/2389",
@@ -39,12 +45,6 @@
     {
       "title": "#2682: Lumetri curves get automation elements; regression test for curve undo/redo",
       "url": "https://github.com/storytold/filmcraft/pull/2710",
-      "repo": "storytold/filmcraft",
-      "mergedAt": "2026-10-31T05:56:56Z"
-    },
-    {
-      "title": "#2489: an imported shortcut set is always listed; .kys files explain why they can't be read",
-      "url": "https://github.com/storytold/filmcraft/pull/2705",
       "repo": "storytold/filmcraft",
       "mergedAt": "2026-10-31T05:56:56Z"
     }
