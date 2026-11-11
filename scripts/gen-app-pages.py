@@ -218,7 +218,7 @@ def about_page():
                    "https://play.google.com/store/apps/developer?id=Felix+Helleckes",
                    "https://dev.to/felix-helleckes", "https://www.producthunt.com/@felix_helleckes",
                    "https://felix-helleckes.itch.io", "https://alternativeto.net/user/felix-helleckes/",
-                   "https://www.youtube.com/@TheEfficientDev"]}}
+                   "https://www.youtube.com/@TheEfficientDev", "https://www.crunchbase.com/person/felix-helleckes"]}}
     out = [head(title, desc, url, "https://github.com/Felix-Helleckes.png", ld)]
     out.append('<p class="crumbs"><a href="/">Felix Helleckes</a> › About</p>')
     out.append('<header class="app"><img src="https://github.com/Felix-Helleckes.png" alt="Felix Helleckes" width="84" height="84" style="border-radius:50%">'
@@ -236,7 +236,7 @@ def about_page():
                '<li><a href="https://play.google.com/store/apps/developer?id=Felix+Helleckes" rel="me">Google Play developer page</a></li>'
                '<li><a href="https://www.youtube.com/@TheEfficientDev" rel="me">YouTube: Felix Helleckes · The Efficient Dev</a></li>'
                '<li><a href="https://dev.to/felix-helleckes" rel="me">dev.to</a> · <a href="https://www.producthunt.com/@felix_helleckes" rel="me">Product Hunt</a> · '
-               '<a href="https://felix-helleckes.itch.io" rel="me">itch.io</a></li></ul>')
+               '<a href="https://felix-helleckes.itch.io" rel="me">itch.io</a> · <a href="https://www.crunchbase.com/person/felix-helleckes" rel="me">Crunchbase</a></li></ul>')
     out.append(FOOT + "</div></body></html>")
     return "\n".join(out)
 
