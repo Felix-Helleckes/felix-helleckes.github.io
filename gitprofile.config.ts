@@ -121,8 +121,8 @@ const config = {
     },
   },
   seo: {
-    title: 'Felix Helleckes – QA & Test Automation Engineer (Germany)',
-    description: 'Felix Helleckes — QA & Test Automation Engineer based in Germany, covering the DACH region and remote work. Playwright, WebdriverIO, Selenium, Locust, CI/CD.',
+    title: 'Felix Helleckes – Indie App Developer & QA Engineer (Cologne)',
+    description: 'Felix Helleckes — indie app developer and senior QA automation engineer from Cologne. Apps: Clickwheel, Project P.E.T., Dash & Slash, Moto-Log, World Clock Live, Retrogram. Playwright, WebdriverIO, CI/CD.',
     imageURL: 'https://github.com/Felix-Helleckes.png',
   },
   social: {
