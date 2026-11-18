@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-11-11",
-  "merged": 38,
-  "open": 38,
+  "updatedAt": "2026-11-18",
+  "merged": 39,
+  "open": 37,
   "issues": 6,
   "repos": [
     {
       "name": "storytold/filmcraft",
       "url": "https://github.com/storytold/filmcraft",
-      "merged": 36,
-      "open": 34
+      "merged": 37,
+      "open": 33
     },
     {
       "name": "storytold/craft-launcher",
@@ -18,6 +18,12 @@
     }
   ],
   "latestMerged": [
+    {
+      "title": "Add a hex field to colour parameters in Effect Controls",
+      "url": "https://github.com/storytold/filmcraft/pull/2359",
+      "repo": "storytold/filmcraft",
+      "mergedAt": "2026-11-18T04:20:18Z"
+    },
     {
       "title": "#2553: fall back to the integrated GPU when the chosen one can't draw to the window",
       "url": "https://github.com/storytold/filmcraft/pull/2558",
@@ -39,12 +45,6 @@
     {
       "title": "#2749: Export starts on Source In/Out when the sequence has In/Out marks",
       "url": "https://github.com/storytold/filmcraft/pull/2768",
-      "repo": "storytold/filmcraft",
-      "mergedAt": "2026-10-31T05:56:56Z"
-    },
-    {
-      "title": "#2682: Lumetri curves get automation elements; regression test for curve undo/redo",
-      "url": "https://github.com/storytold/filmcraft/pull/2710",
       "repo": "storytold/filmcraft",
       "mergedAt": "2026-10-31T05:56:56Z"
     }
