@@ -29,6 +29,17 @@ APPS = [
         "shots": ["https://clickwheel-app.pages.dev/shot-menu-en.png", "https://clickwheel-app.pages.dev/shot-musik-en.png",
                   "https://clickwheel-app.pages.dev/shot-einstellungen-en.png", "https://clickwheel-app.pages.dev/shot-farben-en.png"],
         "portrait": True,
+        "faq": [
+            ("Is Clickwheel a subscription?", "No. The player is free and has no ads. A one-time purchase of 4.99 € adds the tag manager, playlists and all seven case colours. Nothing renews or expires."),
+            ("Can Clickwheel play Spotify or Apple Music tracks?", "No. Streaming catalogues are protected, so no third-party app can play them. Clickwheel plays music files you own that are stored on your phone."),
+            ("Which audio formats does it support?", "MP3, M4A/AAC, FLAC, WAV, AIFF, OGG and Opus. Lossless files are played as they are, without re-encoding, equaliser or loudness adjustment."),
+            ("Does Clickwheel collect data?", "No. There are no analytics, ads, accounts or servers. The Android release does not even hold the INTERNET permission."),
+            ("Can I try the click wheel before installing?", "Yes. The website has a working click wheel you can turn in the browser."),
+        ],
+        "changelog": [
+            ("1.2.0 (Google Play)", "Music ▸ Folders shows your collection as a folder tree in natural file-name order, with “Play all” including subfolders. Albums now come from the real album tag instead of the folder name. Optional tips under Settings. On iPhone, 1.2.0 is in App Store review; the current iOS version is 1.1.5."),
+            ("Next update (in development)", "Import albums from ZIP files, for example Bandcamp downloads, and on iPhone share audio files straight to Clickwheel. A “Rate Clickwheel” entry in Settings."),
+        ],
     },
     {
         "slug": "project-pet", "name": "Project P.E.T.", "icon": "/projects/megaman-pet.png",
@@ -144,7 +155,7 @@ a{color:var(--accent)}.wrap{max-width:860px;margin:0 auto;padding:32px 16px 64px
 header.app img{width:84px;height:84px;border-radius:20px}h1{font-size:2rem;line-height:1.2;margin:0}.sub{color:var(--muted);margin:.25rem 0 0}
 .btns{display:flex;flex-wrap:wrap;gap:10px;margin:20px 0}.btn{display:inline-block;padding:10px 16px;border-radius:10px;border:1px solid var(--line);background:var(--card);text-decoration:none;font-weight:600}
 .btn.primary{background:var(--accent);color:#fff;border-color:var(--accent)}
-h2{font-size:1.3rem;margin:2rem 0 .5rem}ul{padding-left:1.2rem}li{margin:.3rem 0}
+h2{font-size:1.3rem;margin:2rem 0 .5rem}h3{font-size:1.05rem;margin:1.2rem 0 .2rem}ul{padding-left:1.2rem}li{margin:.3rem 0}
 .shots{display:flex;gap:12px;overflow-x:auto;padding:8px 0}.shots img{height:360px;border-radius:14px;border:1px solid var(--line)}
 .shots.wide img{height:auto;width:100%;max-width:820px}
 .more{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:10px}.more a{display:flex;gap:10px;align-items:center;padding:10px;border:1px solid var(--line);border-radius:12px;background:var(--card);text-decoration:none;color:var(--text)}
@@ -185,6 +196,9 @@ def app_page(a):
             {"@type": "ListItem", "position": 1, "name": "Felix Helleckes", "item": BASE + "/"},
             {"@type": "ListItem", "position": 2, "name": "Apps", "item": BASE + "/apps/"},
             {"@type": "ListItem", "position": 3, "name": a["name"], "item": url}]}]}
+    if a.get("faq"):
+        ld["@graph"].append({"@type": "FAQPage", "mainEntity": [
+            {"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": t}} for q, t in a["faq"]]})
     out = [head(title, desc, url, a["shots"][0], ld)]
     out.append(f'<p class="crumbs"><a href="/">Felix Helleckes</a> › <a href="/apps/">Apps</a> › {e(a["name"])}</p>')
     out.append(f'<header class="app"><img src="{a["icon"]}" alt="{e(a["name"])} icon" width="84" height="84"><div>'
@@ -196,6 +210,10 @@ def app_page(a):
         f'<img src="{s}" alt="{e(a["name"])} screenshot {i+1}" loading="lazy">' for i, s in enumerate(a["shots"])) + "</div>")
     out.append("<h2>Why I built it</h2><p>" + e(a["story"]) + "</p>")
     out.append("<h2>Features</h2><ul>" + "".join(f"<li>{e(f)}</li>" for f in a["features"]) + "</ul>")
+    if a.get("changelog"):
+        out.append("<h2>What's new</h2><ul>" + "".join(f"<li><strong>{e(v)}</strong>: {e(t)}</li>" for v, t in a["changelog"]) + "</ul>")
+    if a.get("faq"):
+        out.append("<h2>Questions</h2>" + "".join(f"<h3>{e(q)}</h3><p>{e(t)}</p>" for q, t in a["faq"]))
     out.append("<h2>More apps by Felix Helleckes</h2><div class=\"more\">" + "".join(
         f'<a href="/apps/{o["slug"]}/"><img src="{o["icon"]}" alt="" width="40" height="40"><span>{e(o["name"])}</span></a>'
         for o in APPS if o is not a) + "</div>")
