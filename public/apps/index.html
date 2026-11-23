@@ -75,6 +75,9 @@
     .app h2 { font-size:1.2rem; margin:0; }
     .app p { margin:.35rem 0 .6rem; color:var(--muted); }
     .links { display:flex; flex-wrap:wrap; gap:6px 14px; font-size:.95rem; }
+    .note { color:var(--muted); font-size:.9rem; margin:.5rem 0 0; }
+    table.ver { border-collapse:collapse; width:100%; margin-top:10px; font-size:.95rem; }
+    table.ver th, table.ver td { text-align:left; padding:6px 8px; border-bottom:1px solid var(--line); }
     footer { margin-top:2.4rem; color:var(--muted); font-size:.9rem; }
     @media (max-width:520px) { .app { flex-direction:column; } }
   </style>
@@ -179,9 +182,23 @@
         <p>Shopify app for the EU withdrawal button, the legal-guarantee notice and the durability label, in 24 EU languages.</p>
         <div class="links">
           <a href="https://eu-compliance-suite.fly.dev/">Website</a>
-          <a href="https://apps.shopify.com/eu-compliance-suite">Shopify App Store</a>
         </div>
+        <p class="note">The Shopify App Store listing is currently unavailable (checked 23 Nov 2026); details on the website.</p>
       </div>
+    </section>
+
+    <section>
+      <h2 style="margin-top:2.2rem">Current versions</h2>
+      <p class="note">Public version numbers as of 23 November 2026 (App Store and GitHub releases).</p>
+      <table class="ver">
+        <tr><th>App</th><th>Platform</th><th>Version</th></tr>
+        <tr><td><a href="/apps/clickwheel/">Clickwheel</a></td><td>App Store</td><td>1.1.5</td></tr>
+        <tr><td><a href="/apps/project-pet/">Project P.E.T.</a></td><td>App Store</td><td>2.10.36</td></tr>
+        <tr><td><a href="/apps/dash-and-slash/">Dash &amp; Slash</a></td><td>App Store</td><td>1.0.0</td></tr>
+        <tr><td><a href="/apps/moto-log/">Moto-Log</a></td><td>App Store</td><td>2.1</td></tr>
+        <tr><td><a href="/apps/world-clock-live/">World Clock Live</a></td><td>GitHub release</td><td>0.2.5</td></tr>
+        <tr><td><a href="/apps/retrogram/">Retrogram</a></td><td>Mac App Store / GitHub</td><td>1.1.2</td></tr>
+      </table>
     </section>
 
     <footer>
@@ -192,7 +209,8 @@
         <a href="https://www.linkedin.com/in/felix-helleckes/" rel="me">LinkedIn</a> ·
         <a href="https://apps.apple.com/de/developer/felix-helleckes/id6786716900" rel="me">App Store developer page</a> ·
         <a href="https://play.google.com/store/apps/developer?id=Felix+Helleckes" rel="me">Google Play developer page</a> ·
-        <a href="https://dev.to/felix-helleckes" rel="me">dev.to</a>
+        <a href="https://dev.to/felix-helleckes" rel="me">dev.to</a> ·
+        <a href="https://www.youtube.com/@TheEfficientDev" rel="me">YouTube</a>
       </p>
     </footer>
   </div>
