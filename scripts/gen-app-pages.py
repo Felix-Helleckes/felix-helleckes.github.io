@@ -165,7 +165,9 @@ h2{font-size:1.3rem;margin:2rem 0 .5rem}h3{font-size:1.05rem;margin:1.2rem 0 .2r
 
 FOOT = """<footer><p>Made by <a href="/" rel="author">Felix Helleckes</a>, indie app developer from Cologne ·
 <a href="/apps/">All apps</a> · <a href="/about/">About</a> · <a href="https://github.com/Felix-Helleckes" rel="me">GitHub</a> ·
-<a href="https://www.linkedin.com/in/felix-helleckes/" rel="me">LinkedIn</a></p></footer>"""
+<a href="https://www.linkedin.com/in/felix-helleckes/" rel="me">LinkedIn</a></p>
+<p><a href="https://mein.online-impressum.de/reallifemitfelix/">Impressum</a> · <a href="/datenschutz/">Datenschutz</a></p></footer>"""
+AVATAR = "/felix-helleckes.jpg"
 
 
 def e(s):
@@ -228,7 +230,7 @@ def about_page():
             "He builds Clickwheel, Project P.E.T., Dash & Slash, Moto-Log, World Clock Live, Retrogram and the EU Compliance Suite.")
     ld = {"@context": "https://schema.org", "@type": "ProfilePage", "url": url, "mainEntity": {
         "@type": "Person", "@id": PERSON_ID, "name": "Felix Helleckes", "url": BASE + "/",
-        "image": "https://github.com/Felix-Helleckes.png", "jobTitle": ["Indie App Developer", "Senior QA Engineer"],
+        "image": BASE + AVATAR, "jobTitle": ["Indie App Developer", "Senior QA Engineer"],
         "homeLocation": {"@type": "Place", "name": "Cologne, Germany"},
         "knowsAbout": ["Flutter", "Mobile apps", "Test automation", "Playwright", "Quality assurance", "Electron"],
         "sameAs": ["https://github.com/Felix-Helleckes", "https://www.linkedin.com/in/felix-helleckes/",
@@ -237,9 +239,9 @@ def about_page():
                    "https://dev.to/felix-helleckes", "https://www.producthunt.com/@felix_helleckes",
                    "https://felix-helleckes.itch.io", "https://alternativeto.net/user/felix-helleckes/",
                    "https://www.youtube.com/@TheEfficientDev", "https://www.crunchbase.com/person/felix-helleckes"]}}
-    out = [head(title, desc, url, "https://github.com/Felix-Helleckes.png", ld)]
+    out = [head(title, desc, url, BASE + AVATAR, ld)]
     out.append('<p class="crumbs"><a href="/">Felix Helleckes</a> › About</p>')
-    out.append('<header class="app"><img src="https://github.com/Felix-Helleckes.png" alt="Felix Helleckes" width="84" height="84" style="border-radius:50%">'
+    out.append(f'<header class="app"><img src="{AVATAR}" alt="Felix Helleckes" width="84" height="84" style="border-radius:50%">'
                '<div><h1>Felix Helleckes</h1><p class="sub">Indie app developer &amp; senior QA engineer · Cologne, Germany</p></div></header>')
     out.append("<p>I'm Felix Helleckes, a senior QA automation engineer with more than eight years of experience in web, mobile and IoT testing. "
                "In my spare time I build small, focused apps and ship them myself, from the first line of code to the store listing.</p>")
