@@ -294,7 +294,7 @@ const config = {
       target="_blank"
       rel="noreferrer"
     >React.dev</a> and ❤️ · <a
-      class="text-primary" href="https://mein.online-impressum.de/reallifemitfelix/"
+      class="text-primary" href="https://zerodox.de/creator/reallifemitfelix/impressum"
       target="_blank"
       rel="noreferrer"
     >Impressum</a> · <a class="text-primary" href="/datenschutz/">Datenschutz</a>`,
