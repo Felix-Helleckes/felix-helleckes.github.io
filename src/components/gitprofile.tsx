@@ -257,6 +257,14 @@ const GitProfile = ({ config }: { config: Config }) => {
                       googleAnalyticId={sanitizedConfig.googleAnalytics.id}
                     />
                   )}
+                  {sanitizedConfig.projects.wow.projects.length !== 0 && (
+                    <ExternalProjectCard
+                      loading={false}
+                      header={sanitizedConfig.projects.wow.header}
+                      externalProjects={sanitizedConfig.projects.wow.projects}
+                      googleAnalyticId={sanitizedConfig.googleAnalytics.id}
+                    />
+                  )}
                   <OpenSourceCard />
                   {sanitizedConfig.publications.length !== 0 && (
                     <PublicationCard

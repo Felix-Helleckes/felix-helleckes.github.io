@@ -89,6 +89,8 @@ interface Projects {
   external?: ExternalProjects;
 
   hobby?: ExternalProjects;
+
+  wow?: ExternalProjects;
 }
 
 interface SEO {

@@ -72,6 +72,88 @@ const config = {
         },
       ],
     },
+    wow: {
+      header: 'World of Warcraft Addons by Felix Helleckes',
+      projects: [
+        {
+          title: 'Campfire by Felix — Camping for WoW Forever',
+          description:
+            'Opens at every campfire in WoW Forever: what your professions can place, reagents in bags and bank, where every blueprint drops, buff conflicts, one-click placing and a group camp plan. All 11 client languages.',
+          imageUrl: '/projects/wow-campfire.png',
+          link: 'https://www.curseforge.com/wow/addons/campfire-by-felix',
+        },
+        {
+          title: 'Weekly by Felix — Raid Lockouts & Alts',
+          description:
+            'Every character, every lockout, every weekly in one window: Barrow Deeps, Hyjal and Onyxia lockouts with reset timers, the Dire Maul weekly, gold and rested XP across all alts. WoW Forever.',
+          imageUrl: '/projects/wow-weekly.png',
+          link: 'https://www.curseforge.com/wow/addons/weekly-by-felix',
+        },
+        {
+          title: 'Ready Room by Felix — Raid Prep',
+          description:
+            'Raid preparation for WoW Forever: a personal readiness checklist, a leader board that shows who is ready, role and raid-mark assignments and Onyxia tactics.',
+          imageUrl: '/projects/wow-readyroom.png',
+          link: 'https://www.curseforge.com/wow/addons/ready-room-by-felix',
+        },
+        {
+          title: 'Tagline by Felix — Quest Mob Queue',
+          description:
+            'Stop fighting over quest mobs in WoW Forever: a first-come queue for the mob you are waiting on, synced between players, with one-click group invites.',
+          imageUrl: '/projects/wow-tagline.png',
+          link: 'https://www.curseforge.com/wow/addons/tagline-by-felix',
+        },
+        {
+          title: 'Field of Honor by Felix — PvP Tracker',
+          description:
+            'PvP season tracker for WoW Forever: honor, Rank Points and the weekly cap, the 10-week Season Journey with Legacy Points, battleground win/loss and a weekly history.',
+          imageUrl: '/projects/wow-fieldofhonor.png',
+          link: 'https://www.curseforge.com/wow/addons/field-of-honor-by-felix',
+        },
+        {
+          title: 'Greenhouse by Felix — Herb Seeds',
+          description:
+            'Herb seed tracker for WoW Forever: seeds on all characters, Greenhouse grow timers, a Seed Hybridizer log and crowd-sourced hybridize ratios shared between players.',
+          imageUrl: '/projects/wow-greenhouse.png',
+          link: 'https://www.curseforge.com/wow/addons/greenhouse-by-felix',
+        },
+        {
+          title: 'HotsNDots by Felix — HoTs & DoTs on Nameplates',
+          description:
+            'Track only your own HoTs and DoTs: big countdowns on nameplates, movable timer bars and a row for buffs and debuffs on yourself. A lightweight WeakAuras alternative that works in combat. Retail and WoW Forever.',
+          imageUrl: '/projects/wow-hotsndots.png',
+          link: 'https://www.curseforge.com/wow/addons/hotsndots',
+        },
+        {
+          title: 'Quest Tracker Hider by Felix',
+          description:
+            'Hides the Blizzard quest and objective tracker for a clean screen, combat-safe and without libraries. Retail and WoW Forever.',
+          imageUrl: '/projects/wow-questtrackerhider.png',
+          link: 'https://www.curseforge.com/wow/addons/quest-tracker-hider',
+        },
+        {
+          title: 'BagBarHider by Felix',
+          description:
+            'Hides the bag bar next to the micro menu for a minimal UI, with a minimap toggle. Retail and WoW Forever.',
+          imageUrl: '/projects/wow-bagbarhider.png',
+          link: 'https://www.curseforge.com/wow/addons/bagbarhider',
+        },
+        {
+          title: 'Warbander by Felix — Warband Dashboard',
+          description:
+            'Great Vault, Mythic+ keystone, item level, gold and every currency of all your Retail characters in one table, plus one-click Warband currency transfer.',
+          imageUrl: '/projects/wow-warbander.png',
+          link: 'https://www.curseforge.com/wow/addons/warbander',
+        },
+        {
+          title: 'VolumeBar by Felix — Volume Slider',
+          description:
+            'A small movable volume bar with one-click mute and mouse-wheel control, plus optional music, effects, ambience and dialog sliders. Retail and WoW Forever.',
+          imageUrl: '/projects/wow-volumebar.png',
+          link: 'https://www.curseforge.com/wow/addons/volumebar',
+        },
+      ],
+    },
     external: {
       header: 'Past permanent positions',
       projects: [
@@ -122,7 +204,7 @@ const config = {
   },
   seo: {
     title: 'Felix Helleckes – Indie App Developer & QA Engineer (Cologne)',
-    description: 'Felix Helleckes — indie app developer and senior QA automation engineer from Cologne. Apps: Clickwheel, Project P.E.T., Dash & Slash, Moto-Log, World Clock Live, Retrogram. Playwright, WebdriverIO, CI/CD.',
+    description: 'Felix Helleckes — indie app developer and senior QA automation engineer from Cologne. Apps: Clickwheel, Project P.E.T., Dash & Slash, Moto-Log, World Clock Live, Retrogram. World of Warcraft addons on CurseForge. Playwright, WebdriverIO, CI/CD.',
     imageURL: 'https://felix-helleckes.github.io/felix-helleckes.jpg',
   },
   social: {
