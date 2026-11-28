@@ -59,6 +59,17 @@ APPS = [
                   "https://mega-man-advanced-pet.vercel.app/assets/web/screenshots/the-square.jpg",
                   "https://mega-man-advanced-pet.vercel.app/assets/web/screenshots/coop-raid.jpg"],
         "portrait": True,
+        "faq": [
+            ("Is Project P.E.T. free?", "Yes. The game is free on iOS, Android, Windows and macOS. Purchases are cosmetic only, there is no pay-to-win."),
+            ("How do my steps matter?", "Your real-life steps charge the Cyber-Meter. You spend that energy on real-time battles on a 3×6 grid."),
+            ("Can I play with other people?", "Yes. There are online duels, co-op boss raids, tournaments and a live online hub, the Square, where players meet."),
+            ("Is it an official game?", "No. Project P.E.T. is a fan-made game by an independent developer and is not affiliated with any publisher."),
+        ],
+        "changelog": [
+            ("2.10.40 (November 2026)", "The current version on the App Store."),
+            ("2.10.39", "Winter in the Square: snowfall, presents and a snowball fight with visible snowballs, a target ring and big splashes."),
+            ("2.10.38", "The Square at Christmas: a tree that grows in seven stages and an advent wreath. On desktop, Ctrl opens the chip selection or fires the next chip."),
+        ],
     },
     {
         "slug": "dash-and-slash", "name": "Dash & Slash", "icon": "/projects/dash-and-slash.png",
